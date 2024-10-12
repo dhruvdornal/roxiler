@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -35,4 +35,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+.page-button {
+  margin: 0 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: 1px solid #007bff;
+  background-color: white;
+  color: #007bff;
+}
+
+.page-button.active {
+  background-color: #007bff;
+  color: white;
 }
